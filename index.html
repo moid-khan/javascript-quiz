@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Quiz</title>
+  </head>
+  <body>
+    <div id="exam">
+      <strong id="count">1</strong>
+      <div id="question">Question 1</div>
+      <div>
+        <ul>
+          <li>
+            <input type="radio" name="ans" id="radio1" />
+            <label id="ans1">Ans 1</label>
+          </li>
+          <li>
+            <input type="radio" name="ans" id="radio2" />
+            <label id="ans2">Ans 2</label>
+          </li>
+          <li>
+            <input type="radio" name="ans" id="radio3" />
+            <label id="ans3">Ans 3</label>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <button id="previous">Previous</button>
+        <button id="next">Next</button>
+        <button id="khatam">End Exam</button>
+      </div>
+    </div>
+    <div id="result">
+      <h1>Result</h1>
+      <ul>
+        <li>Total Questions <span id="totalQuestions">0</span></li>
+        <li>Correct Answers<span id="totalCorrect">0</span></li>
+        <li>Incorrect Answers<span id="totalWrong">0</span></li>
+      </ul>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
